@@ -71,7 +71,7 @@
   <project path="packages/apps/Contacts" name="PhilSmith31/platform_packages_apps_Contacts" groups="pdk-fs" remote="github" revision="aosp-7.1.2_r36" />
   <project path="packages/apps/ContactsCommon" name="PhilSmith31/platform_packages_apps_ContactsCommon" groups="pdk-fs" remote="github" revision="aosp-7.1.2_r36" />
   <!-- <project path="packages/apps/DeskClock" name="PhilSmith31/platform_packages_apps_DeskClock" groups="pdk-fs" remote="github" revision="aosp-7.1.2_r36" /> -->
-  <project path="packages/apps/DeskClock" name="PhilSmith31/platform_packages_apps_OmniClock" groups="pdk-fs" remote="github" revision="aosp-7.1.2_r36" />
+  <project path="packages/apps/OmniClock" name="PhilSmith31/platform_packages_apps_OmniClock" groups="pdk-fs" remote="github" revision="aosp-7.1.2_r36" />
   <project path="packages/apps/Dialer" name="PhilSmith31/platform_packages_apps_Dialer" groups="pdk-fs" remote="github" revision="aosp-7.1.2_r36" />
   <project path="packages/apps/Exchange" name="PhilSmith31/platform_packages_apps_Exchange" groups="pdk-fs" remote="github" revision="aosp-7.1.2_r36" />
   <project path="packages/apps/HTMLViewer" name="PhilSmith31/platform_packages_apps_HTMLViewer" groups="pdk-fs" remote="github" revision="aosp-7.1.2_r36" />
