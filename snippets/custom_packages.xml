@@ -20,7 +20,7 @@
   <project path="external/apache-http" name="PhilSmith31/platform_external_apache-http" groups="pdk" remote="github" revision="aosp-7.1.2_r36" />
   <project path="external/boringssl" name="PhilSmith31/platform_external_boringssl" groups="pdk" remote="github" revision="aosp-7.1.2_r36" />
   <project path="external/bzip2" name="PhilSmith31/platform_external_bzip2" groups="pdk" remote="github" revision="aosp-7.1.2_r36" />
-  <!-- <project path="external/chromium-webview" name="PhilSmith31/platform_external_chromium-webview" groups="pdk" remote="github" revision="google" clone-depth="1" /> -->
+  <project path="external/chromium-webview" name="PhilSmith31/platform_external_chromium-webview" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="external/connectivity" name="PhilSmith31/platform_external_connectivity" remote="github" revision="aosp-7.1.2_r36" />
   <project path="external/dnsmasq" name="PhilSmith31/platform_external_dnsmasq" groups="pdk" remote="github" revision="aosp-7.1.2_r36" />
   <project path="external/gemmlowp" name="PhilSmith31/platform_external_gemmlowp" remote="github" revision="aosp-7.1.2_r36" />
@@ -65,7 +65,7 @@
   <project path="packages/apps/MusicFX" name="PhilSmith31/platform_packages_apps_MusicFX" groups="pdk-fs" remote="github" revision="aosp-7.1.2_r36" />
   <project path="packages/apps/Bluetooth" name="PhilSmith31/platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.2_r36" />
   <!-- <project path="packages/apps/Browser" name="PhilSmith31/platform_packages_apps_Browser" remote="github" revision="aosp-7.1.2_r36" /> -->
-  <project path="prebuilts/chromium" name="PhilSmith31/prebuilts_chromium" remote="github" revision="aosp-7.1.2_r36" />
+  <!-- <project path="vendor/aosp/prebuilt/common/app/Chromium" name="PhilSmith31/prebuilts_chromium" remote="github" revision="aosp-7.1.2_r36" /> -->
   <project path="packages/apps/Camera2" name="PhilSmith31/platform_packages_apps_Camera2" groups="pdk-fs" remote="github" revision="aosp-7.1.2_r36" />
   <project path="packages/apps/CarrierConfig" name="PhilSmith31/platform_packages_apps_CarrierConfig" groups="pdk-fs" remote="github" revision="aosp-7.1.2_r36" />
   <project path="packages/apps/CellBroadcastReceiver" name="PhilSmith31/platform_packages_apps_CellBroadcastReceiver" groups="pdk-fs" remote="github" revision="aosp-7.1.2_r36" />
@@ -73,15 +73,15 @@
   <project path="packages/apps/ContactsCommon" name="PhilSmith31/platform_packages_apps_ContactsCommon" groups="pdk-fs" remote="github" revision="aosp-7.1.2_r36" />
   <!-- <project path="packages/apps/DeskClock" name="PhilSmith31/platform_packages_apps_DeskClock" groups="pdk-fs" remote="github" revision="aosp-7.1.2_r36" /> -->
   <project path="packages/apps/OmniClock" name="PhilSmith31/platform_packages_apps_OmniClock" groups="pdk-fs" remote="github" revision="aosp-7.1.2_r36" />
-  <project path="packages/apps/Dialer" name="PhilSmith31/platform_packages_apps_Dialer" groups="pdk-fs" remote="github" revision="aosp-7.1.2_r36" />
+  <!-- <project path="packages/apps/Dialer" name="PhilSmith31/platform_packages_apps_Dialer" groups="pdk-fs" remote="github" revision="aosp-7.1.2_r36" /> -->
   <project path="packages/apps/Exchange" name="PhilSmith31/platform_packages_apps_Exchange" groups="pdk-fs" remote="github" revision="aosp-7.1.2_r36" />
   <project path="packages/apps/HTMLViewer" name="PhilSmith31/platform_packages_apps_HTMLViewer" groups="pdk-fs" remote="github" revision="aosp-7.1.2_r36" />
   <project path="packages/apps/Gallery2" name="PhilSmith31/platform_packages_apps_Gallery2" groups="pdk-fs" remote="github" revision="aosp-7.1.2_r36" />
-  <project path="packages/apps/Jelly" name="PhilSmith31/platform_packages_apps_Jelly" remote="github" revision="aosp-7.1.2_r36" />
+  <!-- <project path="packages/apps/Jelly" name="PhilSmith31/platform_packages_apps_Jelly" remote="github" revision="aosp-7.1.2_r36" /> -->
   <project path="packages/apps/KeyChain" name="PhilSmith31/platform_packages_apps_KeyChain" groups="pdk-fs" remote="github" revision="aosp-7.1.2_r36" />
   <project path="packages/apps/Launcher3" name="PhilSmith31/platform_packages_apps_Launcher3" groups="pdk-fs" remote="github" revision="aosp-7.1.2_r36" />
   <project path="packages/apps/interfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
-  <project path="packages/apps/Messaging" name="PhilSmith31/platform_packages_apps_Messaging" groups="pdk-fs" remote="github" revision="aosp-7.1.2_r36" />
+  <!-- <project path="packages/apps/Messaging" name="PhilSmith31/platform_packages_apps_Messaging" groups="pdk-fs" remote="github" revision="aosp-7.1.2_r36" /> -->
   <project path="packages/apps/Nfc" name="PhilSmith31/platform_packages_apps_Nfc" remote="github" revision="aosp-7.1.2_r36" />
   <project path="packages/apps/OTAUpdates" name="PhilSmith31/platform_packages_apps_OTAUpdates" remote="github" revision="aosp-7.1.2_r36" />
   <project path="packages/apps/PackageInstaller" name="PhilSmith31/platform_packages_apps_PackageInstaller" groups="pdk-fs" remote="github" revision="aosp-7.1.2_r36" />
@@ -108,6 +108,17 @@
   <project path="system/vold" name="PhilSmith31/platform_system_vold" groups="pdk" remote="github" revision="aosp-7.1.2_r36" />
 
   <!-- LineageOS -->
+  <project path="hardware/qcom/media" name="PhilSmith31/platform_hardware_qcom_media" remote="github" revision="aosp-7.1.2_r36" />
+  <project path="packages/providers/UserDictionaryProvider" name="PhilSmith31/android_packages_providers_UserDictionaryProvider" remote="github" revision="aosp-7.1.2_r36" />
+  <project path="packages/apps/Email" name="PhilSmith31/android_packages_apps_Email" remote="github" revision="aosp-7.1.2_r36" />
+  <project path="packages/apps/UnifiedEmail" name="PhilSmith31/android_packages_apps_UnifiedEmail" remote="github" revision="aosp-7.1.2_r36" />
+  <project path="hardware/qcom/display" name="PhilSmith31/android_hardware_qcom_display" remote="github" revision="aosp-7.1.2_r36" />
+  <project path="hardware/broadcom/wlan" name="PhilSmith31/android_hardware_broadcom_wlan" remote="github" revision="aosp-7.1.2_r36" />
+  <project path="external/libxml2" name="PhilSmith31/android_external_libxml2" remote="github" revision="aosp-7.1.2_r36" />	
+  <project path="external/libvorbis" name="PhilSmith31/android_external_libvorbis" remote="github" revision="aosp-7.1.2_r36" />
+  <project path="external/curl" name="PhilSmith31/android_external_curl" remote="github" revision="aosp-7.1.2_r36" />
+  <project path="external/bouncycastle" name="PhilSmith31/android_external_bouncycastle" remote="github" revision="aosp-7.1.2_r36" />
+  <project path="external/aac" name="PhilSmith31/android_external_aac" remote="github" revision="aosp-7.1.2_r36" />	
   <project path="external/ahbottomnavigation" name="LineageOS/android_external_ahbottomnavigation" remote="github" revision="cm-14.1" />
   <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="github" revision="cm-14.1" />
   <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="github" revision="cm-14.1" />
