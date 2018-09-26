@@ -110,7 +110,7 @@
   <!-- LineageOS -->
   <project path="hardware/qcom/media" name="PhilSmith31/platform_hardware_qcom_media" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="packages/providers/UserDictionaryProvider" name="PhilSmith31/android_packages_providers_UserDictionaryProvider" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
-  <project path="packages/apps/Email" name="PhilSmith31/android_packages_apps_Email" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
+  <!-- <project path="packages/apps/Email" name="PhilSmith31/android_packages_apps_Email" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" /> -->
   <project path="packages/apps/UnifiedEmail" name="PhilSmith31/android_packages_apps_UnifiedEmail" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="hardware/qcom/display" name="PhilSmith31/android_hardware_qcom_display" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="hardware/broadcom/wlan" name="PhilSmith31/android_hardware_broadcom_wlan" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
