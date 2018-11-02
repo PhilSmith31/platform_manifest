@@ -9,44 +9,9 @@
   <project path="developers/demos" name="platform/developers/demos" clone-depth="1" />
   <project path="developers/samples/android" name="platform/developers/samples/android" clone-depth="1" />
   <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
-  <!-- <project path="device/asus/fugu" name="device/asus/fugu" groups="device,fugu,broadcom_pdk" clone-depth="1" /> -->
-  <!-- <project path="device/asus/fugu-kernel" name="device/asus/fugu-kernel" groups="device,fugu,broadcom_pdk" clone-depth="1" /> -->
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
-  <!-- <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" clone-depth="1" /> -->
-  <!-- <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" clone-depth="1" /> -->
-  <!-- <project path="device/generic/common" name="device/generic/common" groups="pdk" clone-depth="1" /> -->
-  <!-- <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" clone-depth="1" /> -->
-  <!-- <project path="device/generic/mips" name="device/generic/mips" groups="pdk" clone-depth="1" /> -->
-  <!-- <project path="device/generic/mips64" name="device/generic/mips64" groups="pdk" clone-depth="1" /> -->
-  <!-- <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" clone-depth="1" /> -->
-  <!-- <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" clone-depth="1" /> -->
-  <!-- <project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" groups="pdk" clone-depth="1" /> -->
-  <!-- <project path="device/generic/mini-emulator-mips64" name="device/generic/mini-emulator-mips64" groups="pdk" clone-depth="1" /> -->
-  <!-- <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" clone-depth="1" /> -->
-  <!-- <project path="device/generic/mini-emulator-x86_64" name="device/generic/mini-emulator-x86_64" groups="pdk" clone-depth="1" /> -->
-  <!-- <project path="device/generic/qemu" name="device/generic/qemu" clone-depth="1" /> -->
-  <!-- <project path="device/generic/x86" name="device/generic/x86" groups="pdk" clone-depth="1" /> -->
-  <!-- <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" clone-depth="1" /> -->
-  <!-- <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" clone-depth="1" /> -->
-  <!-- <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" clone-depth="1" /> -->
-  <!-- <project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs" clone-depth="1" /> -->
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device" clone-depth="1" />
-  <!-- <project path="device/google/dragon" name="device/google/dragon" groups="device,dragon" clone-depth="1" /> -->
-  <!-- <project path="device/google/dragon-kernel" name="device/google/dragon-kernel" groups="device,dragon" clone-depth="1" /> -->
-  <!-- <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder,broadcom_pdk" clone-depth="1" /> -->
-  <!-- <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder,broadcom_pdk" clone-depth="1" /> -->
-  <!-- <project path="device/huawei/angler" name="device/huawei/angler" groups="device,angler,broadcom_pdk" clone-depth="1" /> -->
-  <!-- <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk" clone-depth="1" /> -->
-  <!-- <project path="device/intel/edison" name="device/intel/edison" groups="device" clone-depth="1" /> -->
-  <!-- <project path="device/lge/bullhead" name="device/lge/bullhead" groups="device,bullhead" clone-depth="1" /> -->
-  <!-- <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead" clone-depth="1" /> -->
-  <!-- <project path="device/linaro/hikey" name="device/linaro/hikey" clone-depth="1" /> -->
-  <!-- <project path="device/linaro/hikey-kernel" name="device/linaro/hikey-kernel" clone-depth="1" /> -->
-  <!-- <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu,broadcom_pdk" clone-depth="1" /> -->
-  <!-- <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk" clone-depth="1" /> -->
-  <!-- <project path="device/sample" name="device/sample" groups="pdk" clone-depth="1" /> -->
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
-  <!-- <project path="external/aac" name="platform/external/aac" groups="pdk" clone-depth="1" /> -->
   <project path="external/adt-infra" name="platform/external/adt-infra" groups="adt-infra,notdefault" clone-depth="1" />
   <project path="external/androidplot" name="platform/external/androidplot" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="external/ant-glob" name="platform/external/ant-glob" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
@@ -59,13 +24,11 @@
   <project path="external/avahi" name="platform/external/avahi" clone-depth="1" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" clone-depth="1" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
-  <!-- <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" clone-depth="1" /> -->
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" clone-depth="1" />
   <project path="external/c-ares" name="platform/external/c-ares" clone-depth="1" />
   <project path="external/caliper" name="platform/external/caliper" clone-depth="1" />
   <project path="external/cblas" name="platform/external/cblas" groups="pdk" clone-depth="1" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
-  <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk-fs" clone-depth="1" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" clone-depth="1" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" clone-depth="1" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk-fs" clone-depth="1" />
@@ -73,7 +36,6 @@
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="external/crcalc" name="platform/external/crcalc" groups="pdk-fs" clone-depth="1" />
   <project path="external/cros/system_api" name="platform/external/cros/system_api" clone-depth="1" />
-  <!--<project path="external/curl" name="platform/external/curl" clone-depth="1" /> -->
   <project path="external/dagger2" name="platform/external/dagger2" clone-depth="1" />
   <project path="external/dbus" name="platform/external/dbus" clone-depth="1" />
   <project path="external/dbus-binding-generator" name="platform/external/dbus-binding-generator" clone-depth="1" />
@@ -166,10 +128,8 @@
   <project path="external/libusb-compat" name="platform/external/libusb-compat" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="external/libutf" name="platform/external/libutf" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="external/libvncserver" name="platform/external/libvncserver" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
-  <!-- <project path="external/libvorbis" name="platform/external/libvorbis" groups="pdk-cw-fs,pdk-fs" clone-depth="1" /> -->
   <project path="external/libvterm" name="platform/external/libvterm" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="external/libweave" name="platform/external/libweave" clone-depth="1" />
-  <!-- <project path="external/libxml2" name="platform/external/libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" clone-depth="1" /> -->
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv,pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="external/lld" name="platform/external/lld" groups="pdk-fs" clone-depth="1" />
@@ -228,7 +188,7 @@
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" clone-depth="1" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
-  <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
+  <project path="external/svox" name="platform/external/svox" groups="pdk" remote="aosp" revision="cee78199bbfae81f54a40671db47096f5f32cdad" clone-depth="1" />
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="external/testng" name="platform/external/testng" groups="pdk" clone-depth="1" />
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk,pdk-cw-fs,pdk-fs" clone-depth="1" />
@@ -238,7 +198,7 @@
   <project path="external/toybox" name="platform/external/toybox" groups="pdk" clone-depth="1" />
   <project path="external/tpm2" name="platform/external/tpm2" clone-depth="1" />
   <project path="external/unicode" name="platform/external/unicode" groups="pdk" clone-depth="1" />
-  <project path="external/v8" name="platform/external/v8" groups="pdk" clone-depth="1" />
+  <project path="external/v8" name="platform/external/v8" groups="pdk" remote="aosp" revision="refs/tags/android-8.1.0_r48" clone-depth="1" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" clone-depth="1" />
   <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="vboot" clone-depth="1" />
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" clone-depth="1" />
@@ -278,20 +238,14 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" clone-depth="1" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" clone-depth="1" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
-  <!-- project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" clone-depth="1" /> -->
-  <!-- <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" clone-depth="1" /> -->
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="packages/apps/DevCamera" name="platform/packages/apps/DevCamera" groups="pdk" clone-depth="1" />
-  <!-- <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" clone-depth="1" /> -->
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" clone-depth="1" />
-  <!-- <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" clone-depth="1" /> -->
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" clone-depth="1" />
-  <!-- <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" groups="pdk-fs" clone-depth="1" /> -->
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" clone-depth="1" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" clone-depth="1" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" clone-depth="1" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" clone-depth="1" />
-  <!-- <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" clone-depth="1" /> -->
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" clone-depth="1" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" clone-depth="1" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" clone-depth="1" />
@@ -304,7 +258,6 @@
   <project path="packages/apps/Test/connectivity" name="platform/packages/apps/Test/connectivity" clone-depth="1" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="generic_fs" clone-depth="1" />
   <project path="packages/apps/TV" name="platform/packages/apps/TV" clone-depth="1" />
-  <!-- <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" groups="pdk-fs" clone-depth="1" /> -->
   <project path="packages/experimental" name="platform/packages/experimental" clone-depth="1" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" groups="pdk-fs" clone-depth="1" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" groups="pdk-fs" clone-depth="1" />
@@ -314,7 +267,6 @@
   <project path="packages/providers/CallLogProvider" name="platform/packages/providers/CallLogProvider" groups="pdk-fs" clone-depth="1" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" groups="pdk-fs" clone-depth="1" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" groups="pdk-fs" clone-depth="1" />
-  <!-- <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" clone-depth="1" /> -->
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" groups="pdk-fs" clone-depth="1" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" groups="pdk-fs" clone-depth="1" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" groups="pdk-fs" clone-depth="1" />
