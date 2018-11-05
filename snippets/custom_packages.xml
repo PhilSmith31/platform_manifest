@@ -22,7 +22,6 @@
   <project path="external/bzip2" name="PhilSmith31/platform_external_bzip2" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="external/chromium-webview" name="PhilSmith31/platform_external_chromium-webview" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="external/connectivity" name="PhilSmith31/platform_external_connectivity" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
-  <project path="external/dnsmasq" name="PhilSmith31/platform_external_dnsmasq" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="external/gemmlowp" name="PhilSmith31/platform_external_gemmlowp" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="external/iproute2" name="PhilSmith31/platform_external_iproute2" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="external/ipsec-tools" name="PhilSmith31/platform_external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
@@ -31,13 +30,12 @@
   <project path="external/libchrome" name="PhilSmith31/platform_external_libchrome" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="external/libhevc" name="PhilSmith31/platform_external_libhevc" groups="pdk-fs" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="external/libjpeg-turbo" name="PhilSmith31/platform_external_libjpeg-turbo" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
-  <project path="external/libmpeg2" name="PhilSmith31/platform_external_libmpeg2" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="external/libselinux" name="PhilSmith31/platform_external_libselinux" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="external/libunwind_llvm" name="PhilSmith31/platform_external_libunwind_llvm" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="external/libvpx" name="PhilSmith31/platform_external_libvpx" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="external/lz4" name="PhilSmith31/platform_external_lz4" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="external/lzma" name="PhilSmith31/platform_external_lzma" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
-  <project path="external/neven" name="PhilSmith31/platform_external_neven" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
+  <project path="external/neven" name="LineageOS/android_external_neven" groups="pdk" remote="github" revision="cm-14.1" clone-depth="1" />
   <project path="external/okhttp" name="PhilSmith31/platform_external_okhttp" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="external/skia" name="PhilSmith31/android_external_skia" groups="pdk-cw-fs" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="external/sonivox" name="PhilSmith31/platform_external_sonivox" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
@@ -101,19 +99,21 @@
   <project path="system/security" name="PhilSmith31/platform_system_security" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="system/sepolicy" name="PhilSmith31/platform_system_sepolicy" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="system/vold" name="PhilSmith31/platform_system_vold" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
-  <project path="external/chromium-libpac" name="PhilSmith31/android_external_chromium-libpac" groups="pdk-fs" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
 
   <!-- LineageOS -->
+  <project path="external/chromium-libpac" name="LineageOS/android_external_chromium-libpac" groups="pdk-fs" remote="github" revision="cm-14.1" clone-depth="1" />
+  <project path="external/libmpeg2" name="LineageOS/android_external_libmpeg2" groups="pdk" remote="github" revision="cm-14.1" clone-depth="1" />
+  <project path="external/dnsmasq" name="LineageOS/android_external_dnsmasq" groups="pdk" remote="github" revision="cm-14.1" clone-depth="1" />
   <project path="hardware/qcom/media" name="PhilSmith31/platform_hardware_qcom_media" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="packages/providers/UserDictionaryProvider" name="PhilSmith31/android_packages_providers_UserDictionaryProvider" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="packages/apps/Email" name="PhilSmith31/android_packages_apps_Email" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" /> 
   <project path="packages/apps/UnifiedEmail" name="PhilSmith31/android_packages_apps_UnifiedEmail" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="hardware/qcom/display" name="PhilSmith31/android_hardware_qcom_display" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="hardware/broadcom/wlan" name="PhilSmith31/android_hardware_broadcom_wlan" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
-  <project path="external/libxml2" name="PhilSmith31/android_external_libxml2" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />	
-  <project path="external/libvorbis" name="PhilSmith31/android_external_libvorbis" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
-  <project path="external/curl" name="PhilSmith31/android_external_curl" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
-  <project path="external/bouncycastle" name="PhilSmith31/android_external_bouncycastle" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
+  <project path="external/libxml2" name="LineageOS/android_external_libxml2" remote="github" revision="cm-14.1" clone-depth="1" />	
+  <project path="external/libvorbis" name="LineageOS/android_external_libvorbis" remote="github" revision="cm-14.1" clone-depth="1" />
+  <project path="external/curl" name="LineageOS/android_external_curl" remote="github" revision="cm-14.1" clone-depth="1" />
+  <project path="external/bouncycastle" name="LineageOS/android_external_bouncycastle" remote="github" revision="cm-14.1" clone-depth="1" />
   <project path="external/aac" name="PhilSmith31/android_external_aac" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />	
   <project path="external/ahbottomnavigation" name="LineageOS/android_external_ahbottomnavigation" remote="github" revision="cm-14.1" clone-depth="1" />
   <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="github" revision="cm-14.1" clone-depth="1" />
