@@ -8,7 +8,7 @@ Getting Started
 
 To get started with Android, you'll need to get familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the AOSP trees, use a command like this:
+To initialize your local repository:
 
     repo init -u git://github.com/PhilSmith31/platform_manifest.git -b aosp-7.1.2_r36
 
@@ -20,18 +20,25 @@ or if you use SSH:
 Then to sync up:
 
     repo sync
+	
+Afterwards clone the dependencies device, kernel, vendor, device-settings (always see .dependencies file for that):
+	
+	git clone https://github.com/PhilSmith31/platform_device_xiaomi_gemini.git -b aosp-7.1.2_r36 device/xiaomi/gemini
+	git clone https://github.com/PhilSmith31/platform_kernel_xiaomi_msm8996.git -b bb kernel/xiaomi/msm8996
+	git clone https://github.com/PhilSmith31/proprietary_vendor_xiaomi.git -b aosp-7.1.2_r36 vendor/xiaomi
+	git clone https://github.com/PhilSmith31/platform_packages_resources_devicesettings.git -b aosp-7.1.2_r36 packages/resources/devicesettings
+	
+Sync again and allow overwriting local changes (be sure that this is okay at the moment):
 
+	repo sync --force-sync
+	
 Set up build enviroment
 
     . build/envsetup.sh
 
-If you want to disable block-based OTA
-
-    export BLOCK_BASED_OTA=false
-
 Select device
 
-    lunch
+    lunch 2
 
 Compile the rom
 
