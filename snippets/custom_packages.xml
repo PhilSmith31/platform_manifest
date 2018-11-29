@@ -2,6 +2,7 @@
 <manifest>
 
   <!-- AOSP-JDC -->
+  <!-- CAF - LA.UM.5.5.r1-09000-8x96.0 --allow-unrelated-histories -->
   <project path="build" name="PhilSmith31/platform_build" groups="pdk,tradefed" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -11,43 +12,50 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="art" name="PhilSmith31/platform_art" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
-  <project path="bionic" name="PhilSmith31/platform_bionic" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
+  <project path="art" name="PhilSmith31/platform_art" groups="pdk" remote="github" revision="caf" clone-depth="1" />
+  <project path="bionic" name="PhilSmith31/platform_bionic" groups="pdk" remote="github" revision="caf" clone-depth="1" />
   <project path="bootable/recovery" name="PhilSmith31/platform_bootable_recovery" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
-  <project path="device/qcom/sepolicy" name="PhilSmith31/platform_device_qcom_sepolicy" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
-  <project path="device/qcom/common" name="PhilSmith31/android_device_qcom_common" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
-  <project path="external/android-clat" name="PhilSmith31/platform_external_android-clat" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
-  <project path="external/apache-http" name="PhilSmith31/platform_external_apache-http" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
-  <project path="external/boringssl" name="PhilSmith31/platform_external_boringssl" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
-  <project path="external/bzip2" name="PhilSmith31/platform_external_bzip2" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
+  <project path="device/qcom/sepolicy" name="PhilSmith31/platform_device_qcom_sepolicy" remote="github" revision="caf" clone-depth="1" />
+  <project path="device/qcom/common" name="PhilSmith31/android_device_qcom_common" remote="github" revision="caf" clone-depth="1" />
+  <project path="external/android-clat" name="PhilSmith31/platform_external_android-clat" groups="pdk-cw-fs,pdk-fs" remote="github" revision="caf" clone-depth="1" />
+  <project path="external/apache-http" name="PhilSmith31/platform_external_apache-http" groups="pdk" remote="github" revision="caf" clone-depth="1" />
+  <project path="external/boringssl" name="PhilSmith31/platform_external_boringssl" groups="pdk" remote="github" revision="caf" clone-depth="1" />
+  <project path="external/bzip2" name="PhilSmith31/platform_external_bzip2" groups="pdk" remote="github" revision="caf" clone-depth="1" />
   <project path="external/chromium-webview" name="PhilSmith31/platform_external_chromium-webview" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
+  
   <project path="external/connectivity" name="PhilSmith31/platform_external_connectivity" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
-  <project path="external/gemmlowp" name="PhilSmith31/platform_external_gemmlowp" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
-  <project path="external/iproute2" name="PhilSmith31/platform_external_iproute2" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
-  <project path="external/ipsec-tools" name="PhilSmith31/platform_external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
-  <project path="external/jemalloc" name="PhilSmith31/platform_external_jemalloc" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
-  <project path="external/libavc" name="PhilSmith31/platform_external_libavc" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
-  <project path="external/libchrome" name="PhilSmith31/platform_external_libchrome" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
-  <project path="external/libhevc" name="PhilSmith31/platform_external_libhevc" groups="pdk-fs" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
-  <project path="external/libjpeg-turbo" name="PhilSmith31/platform_external_libjpeg-turbo" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
-  <project path="external/libselinux" name="PhilSmith31/platform_external_libselinux" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
-  <project path="external/libunwind_llvm" name="PhilSmith31/platform_external_libunwind_llvm" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
-  <project path="external/libvpx" name="PhilSmith31/platform_external_libvpx" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
+	
+  <project path="external/gemmlowp" name="PhilSmith31/platform_external_gemmlowp" remote="github" revision="caf" clone-depth="1" />
+  <project path="external/iproute2" name="PhilSmith31/platform_external_iproute2" groups="pdk" remote="github" revision="caf" clone-depth="1" />
+  <project path="external/ipsec-tools" name="PhilSmith31/platform_external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="github" revision="caf" clone-depth="1" />
+  <project path="external/jemalloc" name="PhilSmith31/platform_external_jemalloc" groups="pdk" remote="github" revision="caf" clone-depth="1" />
+  <project path="external/libavc" name="PhilSmith31/platform_external_libavc" groups="pdk" remote="github" revision="caf" clone-depth="1" />
+  <project path="external/libchrome" name="PhilSmith31/platform_external_libchrome" remote="github" revision="caf" clone-depth="1" />
+  <project path="external/libhevc" name="PhilSmith31/platform_external_libhevc" groups="pdk-fs" remote="github" revision="caf" clone-depth="1" />
+  <project path="external/libjpeg-turbo" name="PhilSmith31/platform_external_libjpeg-turbo" groups="pdk" remote="github" revision="caf" clone-depth="1" />
+  <project path="external/libselinux" name="PhilSmith31/platform_external_libselinux" groups="pdk" remote="github" revision="caf" clone-depth="1" />
+  <project path="external/libunwind_llvm" name="PhilSmith31/platform_external_libunwind_llvm" remote="github" revision="caf" clone-depth="1" />
+  <project path="external/libvpx" name="PhilSmith31/platform_external_libvpx" groups="pdk" remote="github" revision="caf" clone-depth="1" />
   <project path="external/lz4" name="PhilSmith31/platform_external_lz4" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
-  <project path="external/lzma" name="PhilSmith31/platform_external_lzma" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
-  <project path="external/neven" name="LineageOS/android_external_neven" groups="pdk" remote="github" revision="cm-14.1" clone-depth="1" />
-  <project path="external/okhttp" name="PhilSmith31/platform_external_okhttp" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
+  <project path="external/lzma" name="PhilSmith31/platform_external_lzma" groups="pdk" remote="github" revision="caf" clone-depth="1" />
+  <project path="external/okhttp" name="PhilSmith31/platform_external_okhttp" groups="pdk-cw-fs,pdk-fs" remote="github" revision="caf" clone-depth="1" />
+	
   <project path="external/skia" name="PhilSmith31/android_external_skia" groups="pdk-cw-fs" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
-  <project path="external/sonivox" name="PhilSmith31/platform_external_sonivox" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
-  <project path="external/sqlite" name="PhilSmith31/platform_external_sqlite" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
+	
+  <project path="external/sonivox" name="PhilSmith31/platform_external_sonivox" groups="pdk" remote="github" revision="caf" clone-depth="1" />
+  <project path="external/sqlite" name="PhilSmith31/platform_external_sqlite" groups="pdk" remote="github" revision="caf" clone-depth="1" />
+	
   <project path="external/stlport" name="PhilSmith31/platform_external_stlport" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
-  <project path="external/tinyalsa" name="PhilSmith31/platform_external_tinyalsa" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
-  <project path="external/tinycompress" name="PhilSmith31/platform_external_tinycompress" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
-  <project path="external/tinyxml2" name="PhilSmith31/platform_external_tinyxml2" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
-  <project path="external/tremolo" name="PhilSmith31/platform_external_tremolo" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
-  <project path="external/vulkan-validation-layers" name="PhilSmith31/platform_external_vulkan-validation-layers" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
-  <project path="external/wpa_supplicant_8" name="PhilSmith31/platform_external_wpa_supplicant_8" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
+	
+  <project path="external/tinyalsa" name="PhilSmith31/platform_external_tinyalsa" groups="pdk" remote="github" revision="caf" clone-depth="1" />
+  <project path="external/tinycompress" name="PhilSmith31/platform_external_tinycompress" groups="pdk" remote="github" revision="caf" clone-depth="1" />
+  <project path="external/tinyxml2" name="PhilSmith31/platform_external_tinyxml2" groups="pdk" remote="github" revision="caf" clone-depth="1" />
+  <project path="external/tremolo" name="PhilSmith31/platform_external_tremolo" groups="pdk" remote="github" revision="caf" clone-depth="1" />
+  <project path="external/vulkan-validation-layers" name="PhilSmith31/platform_external_vulkan-validation-layers" remote="github" revision="caf" clone-depth="1" />
+  <project path="external/wpa_supplicant_8" name="PhilSmith31/platform_external_wpa_supplicant_8" groups="pdk" remote="github" revision="caf" clone-depth="1" />
+	
   <project path="external/yaffs2" name="PhilSmith31/platform_external_yaffs2" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
+	
   <project path="external/zlib" name="PhilSmith31/platform_external_zlib" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="frameworks/av" name="PhilSmith31/platform_frameworks_av" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="frameworks/base" name="PhilSmith31/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
@@ -134,6 +142,7 @@
   <project path="external/libnfc-nci" name="LineageOS/android_external_libnfc-nci" groups="pdk" remote="github" revision="cm-14.1" clone-depth="1" />
   <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" groups="pdk" remote="github" revision="cm-14.1" clone-depth="1" />
   <project path="external/libnfnetlink" name="LineageOS/android_external_libnfnetlink" remote="github" revision="cm-14.1" clone-depth="1" />
+  <project path="external/neven" name="LineageOS/android_external_neven" groups="pdk" remote="github" revision="cm-14.1" clone-depth="1" />
   <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="github" revision="cm-14.1" clone-depth="1" />
   <project path="external/powertop" name="LineageOS/android_external_powertop" remote="github" revision="cm-14.1" clone-depth="1" />
   <project path="external/protobuf-c" name="LineageOS/android_external_protobuf-c" remote="github" revision="cm-14.1" />
