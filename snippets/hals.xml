@@ -3,13 +3,13 @@
 
   <!-- HALs -->
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/libbt" name="AOSP-JF-MM/platform_hardware_broadcom_libbt" groups="pdk" remote="github" revision="aosp-7.1.2" />
+  <project path="hardware/broadcom/libbt" name="PhilSmith31/platform_hardware_broadcom_libbt" groups="pdk" remote="github" revision="aosp-7.1.2_r36" />
   <project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="AOSP-JF-MM/platform_hardware_libhardware" groups="pdk" remote="github" revision="aosp-7.1.2" />
-  <project path="hardware/libhardware_legacy" name="AOSP-JF-MM/platform_hardware_libhardware_legacy" groups="pdk" remote="github" revision="aosp-7.1.2" />
-  <project path="hardware/ril" name="AOSP-JF-MM/platform_hardware_ril" groups="pdk" remote="github" revision="aosp-7.1.2" />
-  <project path="hardware/ril-caf" name="AOSP-JF-MM/platform_hardware_ril" groups="pdk" remote="github" revision="aosp-7.1.2-caf" />
+  <project path="hardware/libhardware" name="PhilSmith31/platform_hardware_libhardware" groups="pdk" remote="github" revision="aosp-7.1.2_r36" />
+  <project path="hardware/libhardware_legacy" name="PhilSmith31/platform_hardware_libhardware_legacy" groups="pdk" remote="github" revision="aosp-7.1.2_r36" />
+  <project path="hardware/ril" name="PhilSmith31/platform_hardware_ril" groups="pdk" remote="github" revision="aosp-7.1.2_r36" />
+  <project path="hardware/ril-caf" name="PhilSmith31/platform_hardware_ril" groups="pdk" remote="github" revision="caf" />
 
   <!-- Qualcomm HALs -->
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
@@ -17,16 +17,16 @@
 
 
   <project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.1" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="AOSP-JF-MM/platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="msm8996-7.1.2" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="PhilSmith31/platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="caf-upstream" />
   <project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom" remote="github" revision="cm-14.1" />
   <project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" groups="qcom" remote="github" revision="cm-14.1-caf" />
-  <project path="hardware/qcom/camera" name="AOSP-JF-MM/platform_hardware_qcom_camera" groups="qcom" remote="github" revision="aosp-7.1.2" />
-  <project path="hardware/qcom/display-caf/msm8996" name="AOSP-JF-MM/platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="msm8996-7.1.2" />
-  <project path="hardware/qcom/gps" name="AOSP-JF-MM/platform_hardware_qcom_gps" groups="qcom,qcom_gps" remote="github" revision="aosp-7.1.2" />
-  <project path="hardware/qcom/keymaster" name="AOSP-JF-MM/platform_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="github" revision="aosp-7.1.2" />
-  <project path="hardware/qcom/media-caf/msm8996" name="AOSP-JF-MM/platform_hardware_qcom_media" groups="qcom" remote="github" revision="msm8996-7.1.2" />
+  <project path="hardware/qcom/camera" name="PhilSmith31/platform_hardware_qcom_camera" groups="qcom" remote="github" revision="caf" />
+  <project path="hardware/qcom/display-caf/msm8996" name="PhilSmith31/platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="caf" />
+  <project path="hardware/qcom/gps" name="PhilSmith31/platform_hardware_qcom_gps" groups="qcom,qcom_gps" remote="github" revision="caf" />
+  <project path="hardware/qcom/keymaster" name="PhilSmith31/platform_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="github" revision="aosp-7.1.2_r36" />
+  <project path="hardware/qcom/media-caf/msm8996" name="PhilSmith31/platform_hardware_qcom_media" groups="qcom" remote="github" revision="caf-upstream" />
   <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan" remote="github" revision="cm-14.1" />
-  <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan" remote="github" revision="cm-14.1-caf" />
+  <project path="hardware/qcom/wlan-caf" name="PhilSmith31/platform_hardware_qcom_wlan" groups="qcom_wlan" remote="github" revision="caf" />
 
 
 </manifest>
