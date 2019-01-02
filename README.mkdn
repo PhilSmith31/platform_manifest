@@ -19,7 +19,7 @@ or if you use SSH:
 
 Then to sync up:
 
-    repo sync
+    repo sync -c --no-tags --no-clone-bundle
 	
 Afterwards clone the dependencies device, kernel, vendor, device-settings (always see .dependencies file for that):
 	
@@ -30,7 +30,7 @@ Afterwards clone the dependencies device, kernel, vendor, device-settings (alway
 	
 Sync again and allow overwriting local changes (be sure that this is okay at the moment):
 
-	repo sync --force-sync
+	repo sync -c --no-tags --no-clone-bundle --force-sync
 	
 Set up build enviroment
 
