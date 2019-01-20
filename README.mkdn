@@ -25,7 +25,7 @@ Afterwards clone the dependencies device, kernel, vendor, device-settings (alway
 	
 	git clone https://github.com/PhilSmith31/platform_device_xiaomi_gemini.git -b aosp-7.1.2_r36 device/xiaomi/gemini
 	git clone https://github.com/PhilSmith31/platform_kernel_xiaomi_msm8996.git -b bb kernel/xiaomi/msm8996
-	git clone <url-to-proprietary-vendor> <branch-name> vendor/xiaomi
+	git clone <url-to-proprietary-vendor> -b <branch-name> vendor/xiaomi
 	git clone https://github.com/PhilSmith31/platform_packages_resources_devicesettings.git -b aosp-7.1.2_r36 packages/resources/devicesettings
 	
 Sync again and allow overwriting local changes (be sure that this is okay at the moment):
