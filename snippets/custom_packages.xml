@@ -17,15 +17,12 @@
   <project path="device/qcom/sepolicy" name="PhilSmith31/platform_device_qcom_sepolicy" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="device/qcom/common" name="PhilSmith31/android_device_qcom_common" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="external/aac" name="PhilSmith31/android_external_aac" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />	  
-  <project path="external/chromium-webview" name="PhilSmith31/platform_external_chromium-webview" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="external/connectivity" name="PhilSmith31/platform_external_connectivity" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="external/libavc" name="PhilSmith31/platform_external_libavc" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="external/libhevc" name="PhilSmith31/platform_external_libhevc" groups="pdk-fs" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="external/libselinux" name="PhilSmith31/platform_external_libselinux" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="external/lz4" name="PhilSmith31/platform_external_lz4" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
-  <project path="external/neven" name="LineageOS/android_external_neven" groups="pdk" remote="github" revision="cm-14.1" clone-depth="1" />
-  <project path="external/skia" name="PhilSmith31/android_external_skia" groups="pdk-cw-fs" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
-  <project path="external/sonivox" name="PhilSmith31/platform_external_sonivox" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
+  <project path="external/sonivox" name="PhilSmith31/platform_external_sonivox" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />  
   <project path="external/stlport" name="PhilSmith31/platform_external_stlport" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="external/tremolo" name="PhilSmith31/platform_external_tremolo" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="external/yaffs2" name="PhilSmith31/platform_external_yaffs2" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
@@ -49,7 +46,7 @@
   <project path="packages/apps/CellBroadcastReceiver" name="PhilSmith31/platform_packages_apps_CellBroadcastReceiver" groups="pdk-fs" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="packages/apps/Contacts" name="PhilSmith31/platform_packages_apps_Contacts" groups="pdk-fs" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="packages/apps/ContactsCommon" name="PhilSmith31/platform_packages_apps_ContactsCommon" groups="pdk-fs" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
-  <project path="packages/apps/OmniClock" name="PhilSmith31/platform_packages_apps_OmniClock" groups="pdk-fs" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
+  <project path="packages/apps/OmniClock" name="omnirom/android_packages_apps_OmniClock" remote="github" revision="android-9.0" />
   <project path="packages/apps/Dialer" name="PhilSmith31/platform_packages_apps_Dialer" groups="pdk-fs" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="packages/apps/Email" name="PhilSmith31/android_packages_apps_Email" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />   
   <project path="packages/apps/Exchange" name="PhilSmith31/platform_packages_apps_Exchange" groups="pdk-fs" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
@@ -87,7 +84,7 @@
   <project path="external/android-clat" name="PhilSmith31/platform_external_android-clat" groups="pdk-cw-fs,pdk-fs" remote="github" revision="caf" clone-depth="1" />
   <project path="external/apache-http" name="PhilSmith31/platform_external_apache-http" groups="pdk" remote="github" revision="caf" clone-depth="1" />
   <project path="external/boringssl" name="PhilSmith31/platform_external_boringssl" groups="pdk" remote="github" revision="caf" clone-depth="1" />
-  <project path="external/bzip2" name="PhilSmith31/platform_external_bzip2" groups="pdk" remote="github" revision="caf" clone-depth="1" />  
+  <project path="external/bzip2" name="PhilSmith31/platform_external_bzip2" groups="pdk" remote="github" revision="caf" clone-depth="1" />
   <project path="external/gemmlowp" name="PhilSmith31/platform_external_gemmlowp" remote="github" revision="caf" clone-depth="1" />
   <project path="external/iproute2" name="PhilSmith31/platform_external_iproute2" groups="pdk" remote="github" revision="caf" clone-depth="1" />
   <project path="external/ipsec-tools" name="PhilSmith31/platform_external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="github" revision="caf" clone-depth="1" />
@@ -113,33 +110,36 @@
   <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="github" revision="cm-14.1" clone-depth="1" />
   <project path="external/bouncycastle" name="LineageOS/android_external_bouncycastle" remote="github" revision="cm-14.1" clone-depth="1" />  
   <project path="external/brctl" name="LineageOS/android_external_brctl" remote="github" revision="cm-14.1" clone-depth="1" />
-  <project path="external/chromium-libpac" name="LineageOS/android_external_chromium-libpac" groups="pdk-fs" remote="github" revision="cm-14.1" clone-depth="1" />  
+  <project path="external/chromium-libpac" name="LineageOS/android_external_chromium-libpac" remote="github" revision="cm-14.1" clone-depth="1" />
+  <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" remote="github" revision="cm-14.1" clone-depth="1" />  
   <project path="external/curl" name="LineageOS/android_external_curl" remote="github" revision="cm-14.1" clone-depth="1" />  
-  <project path="external/dnsmasq" name="LineageOS/android_external_dnsmasq" groups="pdk" remote="github" revision="cm-14.1" clone-depth="1" />  
-  <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" remote="github" revision="cm-14.1" groups="pdk" clone-depth="1" />
+  <project path="external/dnsmasq" name="LineageOS/android_external_dnsmasq" remote="github" revision="cm-14.1" clone-depth="1" />  
+  <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" remote="github" revision="cm-14.1" clone-depth="1" />
   <project path="external/ebtables" name="LineageOS/android_external_ebtables" remote="github" revision="cm-14.1" clone-depth="1" />
   <project path="external/exfat" name="LineageOS/android_external_exfat" remote="github" revision="cm-14.1" clone-depth="1" />
-  <project path="external/f2fs-tools" name="LineageOS/android_external_f2fs-tools" groups="pdk" remote="github" revision="cm-14.1" clone-depth="1" />
+  <project path="external/f2fs-tools" name="LineageOS/android_external_f2fs-tools" remote="github" revision="cm-14.1" clone-depth="1" />
   <project path="external/ffmpeg" name="LineageOS/android_external_ffmpeg" remote="github" revision="cm-14.1" clone-depth="1" />
   <project path="external/fuse" name="LineageOS/android_external_fuse" remote="github" revision="cm-14.1" clone-depth="1" />
   <project path="external/gson" name="LineageOS/android_external_gson" remote="github" revision="cm-14.1" clone-depth="1" />
-  <project path="external/jhead" name="PhilSmith31/android_external_jhead" groups="pdk" remote="github" revision="cm-14.1" clone-depth="1" />	
+  <project path="external/jhead" name="PhilSmith31/android_external_jhead" remote="github" revision="cm-14.1" clone-depth="1" />	
   <project path="external/json-c" name="LineageOS/android_external_json-c" remote="github" revision="cm-14.1" clone-depth="1" />
-  <project path="external/libmpeg2" name="LineageOS/android_external_libmpeg2" groups="pdk" remote="github" revision="cm-14.1" clone-depth="1" />  
+  <project path="external/libmpeg2" name="LineageOS/android_external_libmpeg2" remote="github" revision="cm-14.1" clone-depth="1" />  
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="github" revision="cm-14.1" clone-depth="1" />
   <project path="external/libnetfilter_conntrack" name="LineageOS/android_external_libnetfilter_conntrack" remote="github" revision="cm-14.1" clone-depth="1" />
-  <project path="external/libnfc-nci" name="LineageOS/android_external_libnfc-nci" groups="pdk" remote="github" revision="cm-14.1" clone-depth="1" />
-  <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" groups="pdk" remote="github" revision="cm-14.1" clone-depth="1" />
+  <project path="external/libnfc-nci" name="LineageOS/android_external_libnfc-nci" remote="github" revision="cm-14.1" clone-depth="1" />
+  <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" remote="github" revision="cm-14.1" clone-depth="1" />
   <project path="external/libnfnetlink" name="LineageOS/android_external_libnfnetlink" remote="github" revision="cm-14.1" clone-depth="1" />
   <project path="external/libvorbis" name="LineageOS/android_external_libvorbis" remote="github" revision="cm-14.1" clone-depth="1" />  
-  <project path="external/libxml2" name="LineageOS/android_external_libxml2" remote="github" revision="cm-14.1" clone-depth="1" />	
+  <project path="external/libxml2" name="LineageOS/android_external_libxml2" remote="github" revision="cm-14.1" clone-depth="1" />
+  <project path="external/neven" name="LineageOS/android_external_neven" groups="pdk" remote="github" revision="cm-14.1" clone-depth="1" />
   <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="github" revision="cm-14.1" clone-depth="1" />
   <project path="external/powertop" name="LineageOS/android_external_powertop" remote="github" revision="cm-14.1" clone-depth="1" />
   <project path="external/protobuf-c" name="LineageOS/android_external_protobuf-c" remote="github" revision="cm-14.1" />
+  <project path="external/skia" name="LineageOS/android_external_skia" remote="github" revision="cm-14.1" /> 
   <project path="external/stagefright-plugins" name="LineageOS/android_external_stagefright-plugins" remote="github" revision="cm-14.1" clone-depth="1" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" remote="github" revision="cm-14.1" clone-depth="1" />
   <project path="hardware/qcom/fm" name="LineageOS/android_hardware_qcom_fm" groups="qcom,qcom_fm" remote="github" revision="cm-14.1" clone-depth="1" />
-  <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" groups="pdk" remote="github" revision="cm-14.1" clone-depth="1" />
+  <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="github" revision="cm-14.1" clone-depth="1" />
 
   <!-- TWRP -->
   <project path="external/busybox" name="LineageOS/android_external_busybox" remote="github" revision="cm-14.1" clone-depth="1" />
