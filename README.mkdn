@@ -32,6 +32,9 @@ Sync again and allow overwriting local changes (be sure that this is okay at the
 
 	repo sync -c --no-tags --no-clone-bundle --force-sync
 	
+To actually build the ROM you'll have to have an active python2 environment!
+Check out virtualenv and get familiar with it.
+	
 Set up build enviroment
 
     . build/envsetup.sh
