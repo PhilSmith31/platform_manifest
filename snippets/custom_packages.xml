@@ -46,7 +46,7 @@
   <project path="packages/apps/CellBroadcastReceiver" name="PhilSmith31/platform_packages_apps_CellBroadcastReceiver" groups="pdk-fs" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="packages/apps/Contacts" name="PhilSmith31/platform_packages_apps_Contacts" groups="pdk-fs" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="packages/apps/ContactsCommon" name="PhilSmith31/platform_packages_apps_ContactsCommon" groups="pdk-fs" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
-  <project path="packages/apps/OmniClock" name="PhilSmith31/platform_packages_apps_OmniClock" remote="github" revision="android-9.0" />
+  <project path="packages/apps/OmniClock" name="PhilSmith31/platform_packages_apps_OmniClock" remote="github" revision="aosp-7.1.2_r36" />
   <project path="packages/apps/Dialer" name="PhilSmith31/platform_packages_apps_Dialer" groups="pdk-fs" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="packages/apps/Email" name="PhilSmith31/android_packages_apps_Email" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />   
   <project path="packages/apps/Exchange" name="PhilSmith31/platform_packages_apps_Exchange" groups="pdk-fs" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
