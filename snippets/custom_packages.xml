@@ -70,7 +70,6 @@
   <project path="packages/providers/UserDictionaryProvider" name="PhilSmith31/android_packages_providers_UserDictionaryProvider" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />  
   <project path="packages/services/Telecomm" name="PhilSmith31/platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="packages/services/Telephony" name="PhilSmith31/platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
-  <project path="system/bt" name="PhilSmith31/platform_system_bt" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="system/core" name="PhilSmith31/platform_system_core" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="system/extras" name="PhilSmith31/platform_system_extras" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="system/keymaster" name="PhilSmith31/platform_system_keymaster" groups="pdk" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
@@ -137,6 +136,7 @@
   <project path="external/protobuf-c" name="LineageOS/android_external_protobuf-c" remote="github" revision="cm-14.1" />
   <project path="external/skia" name="LineageOS/android_external_skia" remote="github" revision="cm-14.1" /> 
   <project path="external/stagefright-plugins" name="LineageOS/android_external_stagefright-plugins" remote="github" revision="cm-14.1" clone-depth="1" />
+  <project path="system/bt" name="LineageOS/android_system_bt" remote="github" revision="cm-14.1" clone-depth="1" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" remote="github" revision="cm-14.1" clone-depth="1" />
   <project path="hardware/qcom/fm" name="LineageOS/android_hardware_qcom_fm" groups="qcom,qcom_fm" remote="github" revision="cm-14.1" clone-depth="1" />
   <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="github" revision="cm-14.1" clone-depth="1" />
