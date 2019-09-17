@@ -25,7 +25,7 @@
   <project path="hardware/qcom/display-caf/msm8996" name="PhilSmith31/platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="caf" />
   <project path="hardware/qcom/gps" name="PhilSmith31/platform_hardware_qcom_gps" groups="qcom,qcom_gps" remote="github" revision="caf" />
   <project path="hardware/qcom/keymaster" name="PhilSmith31/platform_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="github" revision="aosp-7.1.2_r36" />
-  <project path="hardware/qcom/media-caf/msm8996" name="PhilSmith31/platform_hardware_qcom_media" groups="qcom" remote="github" revision="caf" />
+  <project path="hardware/qcom/media-caf/msm8996" name="PhilSmith31/platform_hardware_qcom_media" groups="qcom" remote="github" revision="msm8996-7.1.2ss" />
   <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan" remote="github" revision="cm-14.1" />
   <project path="hardware/qcom/wlan-caf" name="PhilSmith31/platform_hardware_qcom_wlan" groups="qcom_wlan" remote="github" revision="caf" />
 
