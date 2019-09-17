@@ -119,7 +119,6 @@
   <project path="external/f2fs-tools" name="LineageOS/android_external_f2fs-tools" remote="github" revision="cm-14.1" clone-depth="1" />
   <project path="external/ffmpeg" name="LineageOS/android_external_ffmpeg" remote="github" revision="cm-14.1" clone-depth="1" />
   <project path="external/fuse" name="LineageOS/android_external_fuse" remote="github" revision="cm-14.1" clone-depth="1" />
-  <project path="system/gatekeeper" name="LineageOS/android_system_gatekeeper" groups="pdk" revision="cm-14.1" clone-depth="1" />
   <project path="external/gson" name="LineageOS/android_external_gson" remote="github" revision="cm-14.1" clone-depth="1" />
   <project path="external/jhead" name="PhilSmith31/android_external_jhead" remote="github" revision="cm-14.1" clone-depth="1" />	
   <project path="external/json-c" name="LineageOS/android_external_json-c" remote="github" revision="cm-14.1" clone-depth="1" />
@@ -138,6 +137,7 @@
   <project path="external/skia" name="LineageOS/android_external_skia" remote="github" revision="cm-14.1" /> 
   <project path="external/stagefright-plugins" name="LineageOS/android_external_stagefright-plugins" remote="github" revision="cm-14.1" clone-depth="1" />
   <project path="system/bt" name="LineageOS/android_system_bt" remote="github" revision="cm-14.1" clone-depth="1" />
+  <project path="system/gatekeeper" name="LineageOS/android_system_gatekeeper" groups="pdk" remote="github" revision="cm-14.1" clone-depth="1" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" remote="github" revision="cm-14.1" clone-depth="1" />
   <project path="hardware/qcom/fm" name="LineageOS/android_hardware_qcom_fm" groups="qcom,qcom_fm" remote="github" revision="cm-14.1" clone-depth="1" />
   <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="github" revision="cm-14.1" clone-depth="1" />
