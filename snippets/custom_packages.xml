@@ -119,6 +119,7 @@
   <project path="external/f2fs-tools" name="LineageOS/android_external_f2fs-tools" remote="github" revision="cm-14.1" clone-depth="1" />
   <project path="external/ffmpeg" name="LineageOS/android_external_ffmpeg" remote="github" revision="cm-14.1" clone-depth="1" />
   <project path="external/fuse" name="LineageOS/android_external_fuse" remote="github" revision="cm-14.1" clone-depth="1" />
+  <project path="system/gatekeeper" name="LineageOS/android_system_gatekeeper" groups="pdk" revision="cm-14.1" clone-depth="1" />
   <project path="external/gson" name="LineageOS/android_external_gson" remote="github" revision="cm-14.1" clone-depth="1" />
   <project path="external/jhead" name="PhilSmith31/android_external_jhead" remote="github" revision="cm-14.1" clone-depth="1" />	
   <project path="external/json-c" name="LineageOS/android_external_json-c" remote="github" revision="cm-14.1" clone-depth="1" />
