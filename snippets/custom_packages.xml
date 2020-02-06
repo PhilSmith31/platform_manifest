@@ -38,7 +38,7 @@
   <project path="frameworks/support" name="PhilSmith31/platform_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="hardware/broadcom/wlan" name="PhilSmith31/android_hardware_broadcom_wlan" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />  
   <project path="hardware/qcom/display" name="PhilSmith31/android_hardware_qcom_display" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />  
-  <project path="hardware/qcom/media" name="PhilSmith31/platform_hardware_qcom_media" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />  
+  <project path="hardware/qcom/media" name="PhilSmith31/platform_hardware_qcom_media" remote="github" revision="msm8996-7.1.2" clone-depth="1" />  
   <project path="libcore" name="PhilSmith31/platform_libcore" groups="pdk"  remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="packages/apps/Bluetooth" name="PhilSmith31/platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
   <project path="packages/apps/Camera2" name="PhilSmith31/platform_packages_apps_Camera2" groups="pdk-fs" remote="github" revision="aosp-7.1.2_r36" clone-depth="1" />
